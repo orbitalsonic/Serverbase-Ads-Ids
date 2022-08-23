@@ -14,6 +14,7 @@ Send Ad ids using Firebase RemoteConfig
 {
   "admobAppId": "ca-app-pub-3940256099942544~3347511713",
   "adsServing": true,
+  "countNumber": 2,
   "extras": "empty", 
   "ads": [
     {
