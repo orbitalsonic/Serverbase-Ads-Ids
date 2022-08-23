@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771658513063",
+    "project_id": "ads-serverbase",
+    "storage_bucket": "ads-serverbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771658513063:android:e42c4aea96724eb8513982",
+        "android_client_info": {
+          "package_name": "com.orbitalsonic.adsserverbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771658513063-1qm2lvf8dulpdl0a96p19l411462s5pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWlLqQTIAY1eaaII_Fk5LuhbypMjhVH8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771658513063-1qm2lvf8dulpdl0a96p19l411462s5pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
