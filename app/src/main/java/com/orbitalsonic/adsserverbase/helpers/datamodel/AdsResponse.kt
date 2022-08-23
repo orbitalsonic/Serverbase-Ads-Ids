@@ -7,6 +7,7 @@ data class AdsResponse (
 
   @SerializedName("admobAppId" ) var admobAppId : String?        = null,
   @SerializedName("adsServing" ) var adsServing : Boolean?       = null,
+  @SerializedName("countNumber") var countNumber  : Int?     = null,
   @SerializedName("extras"     ) var extras     : String?        = null,
   @SerializedName("ads"        ) var ads        : ArrayList<Ads> = arrayListOf()
 
