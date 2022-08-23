@@ -47,11 +47,16 @@ class AdsViewModel(application: Application) : AndroidViewModel(application) {
 
     fun getAdsObject(adsType:String):Ads?{
         adsResponse?.let { mResponse ->
-            if (mResponse.adsServing == true){
-                return mResponse.ads.find { it.adsType == adsType }
-            }else{
+            try {
+                if (mResponse.adsServing == true){
+                    return mResponse.ads.find { it.adsType == adsType }
+                }else{
+                    return null
+                }
+            }catch (e:Exception){
                 return null
             }
+
 
         }?:run{
             return null
