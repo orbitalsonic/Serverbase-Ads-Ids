@@ -22,35 +22,12 @@ android {
 
     buildTypes {
         release {
-            resValue 'string', 'admob_small_native_ids', '"ca-app-pub-3940256099942544/2247696110"'
-            resValue 'string', 'admob_small_banner_ids', '"ca-app-pub-3940256099942544/6300978111"'
-            resValue 'string', 'admob_medium_native_ids', '"ca-app-pub-3940256099942544/2247696110"'
-            resValue 'string', 'admob_interstitial_ids', '"ca-app-pub-3940256099942544/1033173712"'
-            resValue 'string', 'admob_app_id', '"ca-app-pub-3940256099942544~3347511713"'
-
-            resValue 'string', 'fb_small_native_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-            resValue 'string', 'fb_small_banner_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-            resValue 'string', 'fb_medium_native_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-            resValue 'string', 'fb_interstitial_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
         debug {
-            resValue 'string', 'admob_small_native_ids', '"ca-app-pub-3940256099942544/2247696110"'
-            resValue 'string', 'admob_small_banner_ids', '"ca-app-pub-3940256099942544/6300978111"'
-            resValue 'string', 'admob_medium_native_ids', '"ca-app-pub-3940256099942544/2247696110"'
-            resValue 'string', 'admob_interstitial_ids', '"ca-app-pub-3940256099942544/1033173712"'
-            resValue 'string', 'admob_app_id', '"ca-app-pub-3940256099942544~3347511713"'
-
-            resValue 'string', 'fb_small_native_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-            resValue 'string', 'fb_small_banner_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-            resValue 'string', 'fb_medium_native_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-            resValue 'string', 'fb_interstitial_ids', '"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"'
-
-
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
